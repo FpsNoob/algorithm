@@ -88,6 +88,6 @@ void quickSort(int r[], int first, int end) {
 	if (first < end) {
 		pivot = Partition(r, first, end);  //换份，pivot是轴值在序列中的位置
 		quickSort(r, first, pivot - 1);		//求解子问题1，对左侧子序列进行快速排序
-		quickSort(r, pivot, end);			//求解子问题2，对右侧子序列进行快速排序
+		quickSort(r, pivot + 1, end);			//求解子问题2，对右侧子序列进行快速排序
 	}
 }
