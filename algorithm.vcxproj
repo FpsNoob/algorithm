@@ -129,6 +129,7 @@
     <ClInclude Include="src\include\basic.h" />
     <ClInclude Include="src\include\Chicken.h" />
     <ClInclude Include="src\include\Divide.h" />
+    <ClInclude Include="src\include\DynamicProgramming.h" />
     <ClInclude Include="src\include\Search.h" />
     <ClInclude Include="src\include\Sort.h" />
     <ClInclude Include="src\include\stringMatching.h" />

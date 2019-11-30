@@ -38,5 +38,8 @@
     <ClInclude Include="src\include\Divide.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\include\DynamicProgramming.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
