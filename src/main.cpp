@@ -3,6 +3,7 @@
 #include "include/Search.h"
 #include "include/stringMatching.h"
 #include "include/Sort.h"
+#include "include/Divide.h"
 
 int main()
 {
@@ -37,9 +38,12 @@ int main()
 	//selectionSort(a, len);
 	//bubbleSort(a, len);
 	//mergeSort(a,0, len-1);
-	quickSort(a, 0, len - 1);
-	for (int i = 0; i < len; i++) {
-		cout << a[i] << " ";
-	}
+	//quickSort(a, 0, len - 1);
+	//for (int i = 0; i < len; i++) {
+	//	cout << a[i] << " ";
+	//}
+
+	//ÆåÅÌÎÊÌâ
+	chessBoard(0, 0, 0, 1, 4);
 	return 0;
 }

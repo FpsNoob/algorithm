@@ -83,7 +83,7 @@ int Partition(int r[], int first, int end) {
 	return i;	//返回轴值记录位置
 }
 
-void quickSort(int r[], int first, int end) {
+template<typename T> void quickSort(T r[], int first, int end) {
 	int pivot;
 	if (first < end) {
 		pivot = Partition(r, first, end);  //换份，pivot是轴值在序列中的位置
