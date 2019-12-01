@@ -19,8 +19,7 @@ void MatrixChain(int* p, int n, int** m, int** s) {
 					s[i][j] = k;
 				}
 			}
-		}
-		
+		}	
 	}
 }
 
@@ -118,7 +117,7 @@ double optimalBST(double p[], int n) {
 	for (i = 1; i <= n; i++) {	//初始化
 		C[i][i - 1] = 0;
 		C[i][i] = p[i - 1];
-		R[i][j] = i;
+		R[i][i] = i;
 	}
 	C[n + 1][n] = 0;
 	for (d = 1; d < n; d++) {  //按对角线逐条计算
@@ -138,3 +137,6 @@ double optimalBST(double p[], int n) {
 		return C[1][n];
 	}
 }
+
+//TSP问题
+ 

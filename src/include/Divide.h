@@ -90,7 +90,7 @@ double Closest(point S[], int low, int high) {  //low和high表示x轴坐标的区间
 	for (i = mid+1; (i <=high) && (S[i].x - S[mid].x < d); i++) {  //在s2中找与m的距离小于d的点
 		P[index++] = S[i];
 	}
-	quickSort(P, 0, index - 1);  //对集合P1 P2按y坐标升序惊醒排序
+	//quickSort(P, 0, index - 1);  //对集合P1 P2按y坐标升序惊醒排序
 	for (i = 0; i < index; i++) {
 		for (j = i + 1; j < index; j++) {
 			if (P[j].y - P[i].y >= d) {  //超出y坐标的范围，跳过
