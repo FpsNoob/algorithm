@@ -47,5 +47,8 @@
     <ClInclude Include="src\include\BackTrack.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\include\BranchBound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

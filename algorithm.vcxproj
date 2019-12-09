@@ -128,6 +128,7 @@
   <ItemGroup>
     <ClInclude Include="src\include\BackTrack.h" />
     <ClInclude Include="src\include\basic.h" />
+    <ClInclude Include="src\include\BranchBound.h" />
     <ClInclude Include="src\include\Chicken.h" />
     <ClInclude Include="src\include\Divide.h" />
     <ClInclude Include="src\include\DynamicProgramming.h" />
